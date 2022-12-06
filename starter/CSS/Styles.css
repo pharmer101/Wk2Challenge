@@ -1,0 +1,212 @@
+body{
+  background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#385880;
+}
+
+header h1{
+    color:white;
+    font-size: 30px;
+}
+
+header ul{
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+header li {
+    display: inline;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+header li:hover {
+    color: #80a8d9;
+}
+
+
+#hero{
+    height: 200px;
+    width: 100%;
+  
+    background-image: url("../images/02-hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero p {
+    background-color:#80a8d9;
+    height: 40px;
+    width: 200px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+
+#aboutMe {
+    display: flex;
+    background-color: white;
+    gap: 150px;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    font-size: 22px; 
+}
+
+#aboutSide{
+
+    color: #385880;
+    font-size: xx-large;
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+
+}
+
+#aboutContent{
+    font-size: larger;
+    margin-top: 50px;
+
+}
+
+#Work{
+
+    display: flex;
+    background-color: white;
+    gap: 150px;
+    /* justify-content: space-evenly;
+    align-content: flex-end; */
+}
+
+#workSide{
+
+    color: #385880;
+    font-size: xx-large;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.gallery{
+
+    display: grid;
+    margin: 50px 300px;
+    gap: 20px;
+    grid-template-areas: 
+    
+    "P1 P1"
+    "P2 P3"
+    "P4 P5"
+    ;
+}
+    
+.img a {
+
+    margin-top: 50 %;
+    font-size: 22px ;
+    color:white;
+    background-color: #DBF9FC;
+    position: relative;
+    top:85%;
+}
+    
+    
+    
+    
+.pic1{
+    grid-area: P1;
+    background-image: url("../images/02-portfolio-1.jpg");
+    background-size: cover;
+    height: 500px;
+    min-width: auto;
+}
+.pic2{
+    grid-area:P2;
+    background-image: url("../images/02-portfolio-2.jpg");
+    background-size: cover;
+    height: 400px;
+}
+    
+    
+.pic3{
+    grid-area:P3;
+    background-image: url("../images/02-portfolio-3.jpg");
+    background-size: cover;
+    height: 400px;
+}
+    
+    
+.pic4{
+    grid-area:P4;
+    background-image: url("../images/02-portfolio-4.jpg");
+    height: 400px;
+    background-size: cover;
+}
+    
+    
+.pic5{
+    grid-area:P5;
+    background-image: url("../images/02-run-buddy.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+#ContactMe{
+
+    display: flex;
+    background-color: white;
+    gap: 150px;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+#ContactAside{
+
+    color: #385880;
+    font-size: xx-large;
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+
+#ContactMain{
+ 
+    font-size: 28px;
+    margin-top: 50px; 
+    margin-right: 30%;
+
+}
+
+
+#ContactMain ul{
+text-decoration: none;
+display: inline;
+color: black;
+}
+
+#ContactMain li  {
+    display: inline;
+    padding-left: 50px;
+    color: black;
+}
+
+
+
+
+
+.gallery h2{
+
+    background-color: #385880;
+}
+
