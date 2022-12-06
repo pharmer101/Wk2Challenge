@@ -71,7 +71,4 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
-Link to the webiste : - https://pharmer101.github.io/Wk2Challenge/
+# Link to the webiste : - https://pharmer101.github.io/Wk2Challenge/
